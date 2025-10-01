@@ -1,0 +1,24 @@
+[package]
+name = "megastore-search-system"
+version = "1.0.0"
+edition = "2021"
+description = "Sistema de busca otimizado para catálogo de produtos da MegaStore"
+authors = ["Seu Nome"]
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rayon = "1.7"
+fxhash = "0.2"
+lazy_static = "1.4"
+regex = "1.0"
+ordered-float = "3.0"
+
+[dev-dependencies]
+criterion = "0.5"
+rand = "0.8"
+
+[[bench]]
+name = "performance_benchmarks"
+harness = false

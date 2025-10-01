@@ -1,5 +1,6 @@
 # Sistema de Busca Otimizado para Catálogo de Produtos - MegaStore
 
+
 ## Descrição do Projeto
 
 Sistema de busca de alta performance desenvolvido em Rust para o catálogo de produtos da MegaStore. O sistema oferece busca rápida e relevante em grandes volumes de dados utilizando estruturas de dados eficientes e algoritmos de ranking avançados.
